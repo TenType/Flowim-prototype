@@ -1,0 +1,7 @@
+while true
+	print('Input an expression to evaluate:')
+	var expr = input()
+	print('Output:')
+	eval(expr)
+	print('--------------------------------')
+end

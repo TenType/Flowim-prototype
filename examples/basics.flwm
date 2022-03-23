@@ -1,0 +1,18 @@
+-- Comments work!
+
+print("What's your name?")
+var name = input()
+
+/-
+	Multiline comments too!
+-/
+
+func emphasize(text) = text & '!!!'
+
+func sayHelloFive(name)
+	for i = 0, 5
+		print(emphasize('Hello there, ' & name))
+	end
+end
+
+sayHelloFive(name)
