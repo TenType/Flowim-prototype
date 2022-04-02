@@ -57,6 +57,6 @@ The grammar of anonymous functions works the same as named functions, except the
 ### Examples
 ```
 var storedFunction = func()
-	print('hello!')
+    print('hello!')
 end
 ```
