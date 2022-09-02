@@ -1,4 +1,4 @@
-func fibonnaci(num)
+func fibonacci(num)
 	if num <= 0 then return 0
 	if num <= 2 then return num - 1
 
@@ -15,4 +15,4 @@ func fibonnaci(num)
 	return result
 end
 
-print(fibonnaci(9))
+print(fibonacci(9))
